@@ -1,0 +1,22 @@
+{
+  "name": "Khamla",
+  "version": "1.0.0",
+  "main": "server.js",
+  "license": "MIT",
+  "devDependencies": { 
+    "concurrently": "^6.2.0", 
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.9",
+    "mongoose": "^5.12.12",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "dev":"nodemon server.js"
+  }
+}
